@@ -1,0 +1,70 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.wrapper-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.login {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #064635;
+}
+.title {
+    height: 10%;
+    padding: 60px 40px 37px 50px;
+    color: white;
+}
+.title h1 {
+    margin: 0px;
+}
+.layout {
+    height: 5%;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+.wrapper-form {
+    display: flex;
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: white;
+}
+label {
+    display: flex;
+    width: 80%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.info {
+    width: 25%;
+}
+input {
+    width: 75%;
+    border: solid 1.5px black;
+}
+.wrapper-button {
+    width: 80%;
+    text-align: right;
+}
+.submit-button {
+    width: 15%;
+    border-radius: 5px;
+    background-color: #F0BB62;
+    font-weight: bolder;
+}

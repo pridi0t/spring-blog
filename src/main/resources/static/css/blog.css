@@ -1,0 +1,155 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.layout {
+    display: flex;
+    height: 100%;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    background-color: #064635;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: 110px;
+    background-color: #F4EEA9;
+}
+.profile img {
+    width: 60px;
+    height: 60px;
+    border: solid 1.5px black;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.navbar p {
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buttons button {
+    width: 55px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: #F0BB62;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 45%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+.menu p {
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.main-menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu-toggle-close{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 18px solid #064635;
+}
+.menu-toggle-open {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid #064635;
+}
+.sub-menu {
+    width: 100%;
+    margin-top: 3px;
+    text-align: left;
+}
+.sub-menu div {
+    height: 15px;
+    padding: 5px;
+    font-size: 14px;
+}
+.wrapper-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 75%;
+    padding: 70px 50px 70px 50px;
+    border-radius: 5px;
+    color: #064635;
+    background-color: white;
+}
+.content h1 {
+    margin: 0px;
+}
+.post {
+    display: flex;
+    height: 110px;
+    padding: 15px;
+    border: solid 2px #064635;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.post img {
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.post div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.post h3{
+    margin: 0px 0px 5px 0px;
+}
+.post p {
+    height: 70px;
+    margin: 0px;
+    overflow: hidden;
+    word-break: break-all;
+    color: black;
+    font-size: 13px;
+}
+.post-buttons {
+    text-align: right;
+}
+.post-buttons button {
+    width: 75px;
+    height: 25px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #064635;
+}
